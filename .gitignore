@@ -1,0 +1,32 @@
+# expo
+expo-env.d.ts
+.expo/
+
+# dependencies
+node_modules/
+
+# builds
+dist/
+build/
+android/
+ios/
+
+# env — contains Supabase keys, never commit this
+.env
+.env.local
+.env*.local
+
+# Google Play service account key — contains secrets
+google-service-account.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+
+# logs
+*.log
+npm-debug.log*

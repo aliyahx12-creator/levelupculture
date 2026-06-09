@@ -1,0 +1,68 @@
+import type { Resource } from '@/types';
+
+export const RESOURCES: Resource[] = [
+  {
+    id: '1',
+    title: "The Beginner's Gaming Mindset",
+    description: "Shift your perspective from \"I'm bad\" to \"I'm learning.\" Core mental models for new gamers.",
+    category: 'mindset',
+    type: 'guide',
+    icon: 'brain-outline',
+  },
+  {
+    id: '2',
+    title: 'How to Handle Tilt',
+    description: 'Practical techniques to reset after a bad game or losing streak.',
+    category: 'mindset',
+    type: 'article',
+    icon: 'refresh-outline',
+  },
+  {
+    id: '3',
+    title: 'Controller vs. Mouse & Keyboard',
+    description: 'A friendly breakdown to help you choose the right input for your style.',
+    category: 'tech',
+    type: 'guide',
+    icon: 'game-controller-outline',
+  },
+  {
+    id: '4',
+    title: 'Aim Training 101',
+    description: 'The only aim training guide beginners need. No jargon, just practice.',
+    category: 'gaming',
+    type: 'guide',
+    icon: 'target-outline',
+  },
+  {
+    id: '5',
+    title: 'Building Good Gaming Habits',
+    description: 'Sleep, breaks, hydration — the unsexy truth about what makes great gamers.',
+    category: 'growth',
+    type: 'article',
+    icon: 'calendar-outline',
+  },
+  {
+    id: '6',
+    title: 'Understanding Ping & Lag',
+    description: 'Simple explanation of internet terms every gamer should know.',
+    category: 'tech',
+    type: 'article',
+    icon: 'wifi-outline',
+  },
+  {
+    id: '7',
+    title: 'Growth Mindset in Gaming',
+    description: "How applying Carol Dweck's research makes you a better player.",
+    category: 'growth',
+    type: 'guide',
+    icon: 'trending-up-outline',
+  },
+  {
+    id: '8',
+    title: 'Finding Your Game',
+    description: 'A quiz-style guide to help beginners find genres that match their personality.',
+    category: 'gaming',
+    type: 'guide',
+    icon: 'search-outline',
+  },
+];
