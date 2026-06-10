@@ -1,6 +1,7 @@
 {
   "cli": {
-    "version": ">= 14.0.0"
+    "version": ">= 14.0.0",
+    "appVersionSource": "remote"
   },
   "build": {
     "development": {
@@ -17,6 +18,10 @@
       "autoIncrement": true,
       "android": {
         "buildType": "app-bundle"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://zbafcgbwsvqvjscezuyp.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpiYWZjZ2J3c3ZxdmpzY2V6dXlwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA5NjEzODgsImV4cCI6MjA5NjUzNzM4OH0.67YvD6lMWWyFR7Z-DHSSkC5iq2eT1tQd0osYWASE8zE"
       }
     }
   },
